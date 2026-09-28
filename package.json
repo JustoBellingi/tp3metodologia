@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "format": "prettier --write .",
     "lint": "eslint ."
   },
@@ -16,6 +17,7 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.11.0",
     "jest": "^30.5.2",
+    "jscpd": "^5.3.3",
     "prettier": "^3.9.9"
   }
 }
